@@ -61,6 +61,7 @@
     margin: auto;
     padding-top: 8rem;
   }
+  
 
   .showcase {
     display: flex;
@@ -249,6 +250,12 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
+  @media screen and (max-width:700px){
+    .container{
+      flex-direction: column;
+      gap: 2rem;
+    }
+
   .left-section {
       flex: 1;
       padding: 20px;
@@ -383,6 +390,14 @@ header {
   margin: auto;
 }
 
+@media screen and (max-width:700px){
+  .container4{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .rearrange{
+    width: 100% ;
+  }
 
 .rearrange {
   text-align: center;
